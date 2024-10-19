@@ -22,13 +22,13 @@ const About = () => {
             <div className="left">
               <div className="image_wrap">
                 <img src="img/thumbs/64-49.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/img-about-1.webp" />
                 <div className="extra_image">
                   <div className="image_inner">
                     <img src="img/thumbs/1-1.jpg" alt="" />
                     <div
                       className="main_extra"
-                      data-img-url="img/about/2.jpg"
+                      data-img-url="img/img-about-2.webp"
                     />
                   </div>
                 </div>

@@ -114,16 +114,16 @@ const Testimonials = () => {
               </SwiperSlide>
               <div className="owl-dots"></div>
             </Swiper>
-            <div
-              className="shape moving_effect"
-              data-direction="y"
-              data-reverse="yes"
-            />
-            <div
-              className="shape_2 moving_effect"
-              data-direction="y"
-              data-reverse="yes"
-            />
+            {/* <div */}
+            {/*   className="shape moving_effect" */}
+            {/*   data-direction="y" */}
+            {/*   data-reverse="yes" */}
+            {/* /> */}
+            {/* <div */}
+            {/*   className="shape_2 moving_effect" */}
+            {/*   data-direction="y" */}
+            {/*   data-reverse="yes" */}
+            {/* /> */}
           </div>
         </div>
       </div>

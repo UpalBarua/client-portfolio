@@ -7,7 +7,7 @@ import CounterSection from "../src/components/CounterSection";
 import Features from "../src/components/Features";
 import Home from "../src/components/Home";
 import Partners from "../src/components/Partners";
-import Portfolio from "../src/components/Portfolio";
+import Portfolio2 from "../src/components/Portfolio2";
 import Process from "../src/components/Process";
 import Service from "../src/components/Service";
 import Skills from "../src/components/Skills";
@@ -33,14 +33,14 @@ const Index = () => {
       <Features />
       <About />
       <CounterSection />
-      <Portfolio />
+      <Portfolio2 />
       <Skills />
       <Service />
       <Process />
-      <Testimonials />
-      <Partners />
+      {/* <Testimonials /> */}
+      {/* <Partners /> */}
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
       <Copyright />
       <Mouse />
       <ScrollTop />

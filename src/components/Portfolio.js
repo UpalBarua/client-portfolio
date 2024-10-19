@@ -143,16 +143,16 @@ const Portfolio = () => {
                     />
                   </div>
                 </li>
-                <div
-                  className="shape_1 moving_effect"
-                  data-direction="y"
-                  data-reverse="yes"
-                />
-                <div
-                  className="shape_2 moving_effect"
-                  data-direction="y"
-                  data-reverse="yes"
-                />
+                {/* <div */}
+                {/*   className="shape_1 moving_effect" */}
+                {/*   data-direction="y" */}
+                {/*   data-reverse="yes" */}
+                {/* /> */}
+                {/* <div */}
+                {/*   className="shape_2 moving_effect" */}
+                {/*   data-direction="y" */}
+                {/*   data-reverse="yes" */}
+                {/* /> */}
               </ul>
             </div>
           </div>

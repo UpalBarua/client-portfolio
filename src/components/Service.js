@@ -88,11 +88,11 @@ const Service = () => {
               </ul>
             </div>
           </div>
-          <div
-            className="shape moving_effect"
-            data-direction="y"
-            data-reverse="yes"
-          />
+          {/* <div */}
+          {/*   className="shape moving_effect" */}
+          {/*   data-direction="y" */}
+          {/*   data-reverse="yes" */}
+          {/* /> */}
         </div>
       </div>
     </Fragment>

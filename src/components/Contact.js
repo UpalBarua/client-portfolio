@@ -23,7 +23,7 @@ const Contact = () => {
           "", // service id
           "", // template id
           mailData,
-          "" // public api
+          "", // public api
         )
         .then(
           (response) => {
@@ -33,7 +33,7 @@ const Contact = () => {
           },
           (err) => {
             console.log(err.text);
-          }
+          },
         );
     }
   };
@@ -154,16 +154,16 @@ const Contact = () => {
                 </ul>
               </div>
             </div>
-            <div
-              className="shape moving_effect"
-              data-direction="y"
-              data-reverse="yes"
-            />
-            <div
-              className="shape_2 moving_effect"
-              data-direction="y"
-              data-reverse="yes"
-            />
+            {/* <div */}
+            {/*   className="shape moving_effect" */}
+            {/*   data-direction="y" */}
+            {/*   data-reverse="yes" */}
+            {/* /> */}
+            {/* <div */}
+            {/*   className="shape_2 moving_effect" */}
+            {/*   data-direction="y" */}
+            {/*   data-reverse="yes" */}
+            {/* /> */}
           </div>
         </div>
       </div>
