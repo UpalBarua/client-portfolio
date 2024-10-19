@@ -450,7 +450,8 @@ h6 {
 
 .devman_tm_header.animate {
   padding: 25px 0px;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #030404;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1548,18 +1549,18 @@ h6 {
   padding-left: 40px;
 }
 
-.devman_tm_modalbox .main_details .detailbox > ul {
+.devman_tm_modalbox .main_details .detailbox>ul {
   margin: 0px;
   list-style-type: none;
 }
 
-.devman_tm_modalbox .main_details .detailbox > ul > li {
+.devman_tm_modalbox .main_details .detailbox>ul>li {
   margin: 0px 0px 10px 0px;
   width: 100%;
   float: left;
 }
 
-.devman_tm_modalbox .main_details .detailbox > ul > li:last-child {
+.devman_tm_modalbox .main_details .detailbox>ul>li:last-child {
   margin-bottom: 0px;
 }
 
@@ -1639,7 +1640,7 @@ h6 {
   gap: 1.25rem;
 }
 
-.portfolio-grid > li {
+.portfolio-grid>li {
   position: relative;
   overflow: hidden;
 }
@@ -1669,7 +1670,7 @@ h6 {
   border-radius: 0.5em;
 }
 
-.portfolio-grid > li:hover .portfolio-content {
+.portfolio-grid>li:hover .portfolio-content {
   transform: translateY(0);
   opacity: 1;
 }
@@ -1747,7 +1748,7 @@ h6 {
   margin-bottom: 0px;
 }
 
-.progress_inner > span {
+.progress_inner>span {
   margin: 0px 0px 10px 0px;
   display: block;
   text-align: left;
@@ -2428,10 +2429,7 @@ h6 {
   margin: 0px 12px;
 }
 
-.devman_tm_testimonials
-  .owl-theme
-  .owl-dots
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.devman_tm_testimonials .owl-theme .owl-dots .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #142eb5;
 }
 
@@ -2459,7 +2457,7 @@ h6 {
   right: -5px;
 }
 
-.devman_tm_testimonials .owl-theme .owl-nav.disabled + .owl-dots {
+.devman_tm_testimonials .owl-theme .owl-nav.disabled+.owl-dots {
   top: -5px;
   bottom: -5px;
   left: -5px;
@@ -3362,17 +3360,17 @@ h6 {
   padding: 2.35em;
 }
 
-.portfolio-content.details > h3 {
+.portfolio-content.details>h3 {
   padding-bottom: 1.5rem;
 }
 
-.portfolio-content.details > a {
+.portfolio-content.details>a {
   font-size: 1rem;
   padding-bottom: 0.875rem;
   gap: 0.675em;
 }
 
-.details-text > p {
+.details-text>p {
   padding-block: 1em;
   line-height: 2.5ch;
   opacity: 0.8;

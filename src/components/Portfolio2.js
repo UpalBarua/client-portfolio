@@ -1,6 +1,10 @@
 import { portfolioWorks } from "../data/portfolio-works";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Portfolio2 = () => {
+  const router = useRouter();
+
   return (
     <div className="devman_tm_section" id="portfolio">
       <div className="devman_tm_portfolio">
@@ -15,12 +19,17 @@ const Portfolio2 = () => {
           </div>
           <div className="portfolio_list">
             <ul className="portfolio-grid">
-              {portfolioWorks.map(({ img, name, githubLink, liveLink }) => (
-                <li key={name} className="wow fadeInUp" data-wow-duration="1s">
+              {portfolioWorks.map(({ img, name, githubLink, liveLink }, i) => (
+                <li
+                  key={name + i}
+                  className="wow fadeInUp"
+                  data-wow-duration="1s"
+                >
                   <div>
                     <img className="portfolio-img" src={img} />
                     <div className="portfolio-content">
-                      <h5>{name}</h5>
+                      <h5 onClick={() => router.push("/portfolio")}>{name}</h5>
+
                       <a href={liveLink} target="_blank">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
