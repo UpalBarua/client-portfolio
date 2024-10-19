@@ -16,7 +16,7 @@ const Header = () => {
               <img src="img/logo/logo.png" alt="" />
             </a>
             <a className="dark" href="#">
-              <img src="img/logo/dark.png" alt="" />
+              <img src="img/logo/logo.png" alt="" />
             </a>
           </div>
           <div className="menu">
