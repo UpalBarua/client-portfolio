@@ -320,6 +320,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
+  scroll-margin-top: 8em;
 }
 
 /*---------------------------------------------------*/
@@ -586,8 +587,7 @@ h6 {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .devman_tm_hero .left {
@@ -629,14 +629,7 @@ h6 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.devman_tm_hero .buttons {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .devman_tm_hero .devman_tm_button {
@@ -852,6 +845,7 @@ h6 {
   background-size: cover;
   background-position: center;
   border-radius: 12px;
+  /* scale: 1.5; */
 }
 
 /*---------------------------------------------------*/
@@ -1678,6 +1672,13 @@ h6 {
 .portfolio-content h5 {
   padding-bottom: 1rem;
   color: var(--main-color);
+}
+
+.portfolio-content h5:hover,
+.portfolio-content h5:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  cursor: pointer;
 }
 
 .portfolio-content a {

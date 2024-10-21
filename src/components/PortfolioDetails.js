@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function PortfolioDetails() {
+export default function PortfolioDetails({ portfolioDetails }) {
   return (
     <div className="container portfolio-details">
       <div className="portfolio-content details">
-        <h3>Project Name</h3>
-        <a href="#" target="_blank">
+        <h3>{portfolioDetails?.name}</h3>
+        <a href={portfolioDetails?.githubLink} target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -23,7 +23,7 @@ export default function PortfolioDetails() {
           </svg>
           GitHub Link
         </a>
-        <a href="#" target="_blank">
+        <a href={portfolioDetails?.liveLink} target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -46,17 +46,10 @@ export default function PortfolioDetails() {
         </a>
       </div>
       <div className="details-text">
-        <h2>Lorem amet, qui minim labore adipisicing minim sint</h2>
-        <p>
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          cillum sint consectetur cupidatat. cillum sint consectetur cupidatat.
-          cillum sint consectetur cupidatat. cillum sint consectetur cupidatat.
-        </p>
+        <h2>{portfolioDetails?.title}</h2>
+        <p>{portfolioDetails?.description}</p>
       </div>
-      <img className="details-img" src="/img/portfolio/img-portfolio.webp" />
+      <img className="details-img" src={portfolioDetails?.img} />
     </div>
   );
 }
