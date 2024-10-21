@@ -5,7 +5,7 @@ const serviceData = [
   {
     name: "Desktop Application",
     icon: "img/svg/cpu.svg",
-    img: "img/service/1.jpg",
+    img: "img/portfolio/img-portfolio-2.webp",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -15,7 +15,7 @@ const serviceData = [
   {
     name: "Mobile Application",
     icon: "img/svg/phone.svg",
-    img: "img/service/2.jpg",
+    img: "img/portfolio/img-portfolio-2.webp",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -25,7 +25,7 @@ const serviceData = [
   {
     name: "Website Development",
     icon: "img/svg/web.svg",
-    img: "img/service/3.jpg",
+    img: "img/portfolio/img-portfolio-2.webp",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -35,7 +35,7 @@ const serviceData = [
   {
     name: "Game Development",
     icon: "img/svg/star.svg",
-    img: "img/service/4.jpg",
+    img: "img/portfolio/img-portfolio-2.webp",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",

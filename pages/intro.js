@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <Layout>
       <Head>
-        <title>Devman | Intro</title>
+        <title>Binyam Tafesse | Intro</title>
       </Head>
       <div className="devman_tm_intro">
         <div className="devman_tm_intro_fixed_price">

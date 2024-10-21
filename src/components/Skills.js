@@ -7,7 +7,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="devman_tm_section">
+    <div className="devman_tm_section" id="skills">
       <div className="devman_tm_skills">
         <div className="container">
           <div className="devman_tm_main_title" data-text-align="center">

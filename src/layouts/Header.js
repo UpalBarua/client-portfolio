@@ -31,14 +31,14 @@ const Header = () => {
                 <a href="/#portfolio">Portfolio</a>
               </li>
               <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
                 <a href="/#service">Service</a>
               </li>
               <li>
                 <a href="/#contact">Contact</a>
               </li>
-              {/* <li> */}
-              {/*   <a href="#blog">Blog</a> */}
-              {/* </li> */}
               <li className="download_cv">
                 <a href="img/cv/1.jpg" download>
                   Download CV

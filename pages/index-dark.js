@@ -30,7 +30,7 @@ const IndexDark = () => {
   return (
     <Layout>
       <Head>
-        <title>Devman | Home</title>
+        <title>Binyam Tafesse | Intro</title>
       </Head>
       <MobileHeader />
       <Header />
